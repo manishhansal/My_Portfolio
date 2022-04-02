@@ -1,0 +1,15 @@
+.about {
+    text-align: center;
+    background-color: azure;
+    border: 1px solid #cecece;
+}
+
+.about h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.about p {
+    font-size: 25px;
+    font-weight: 800;
+}

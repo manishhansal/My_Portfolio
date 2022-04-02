@@ -1,0 +1,24 @@
+.mainDiv {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-around; */
+}
+
+.skillDiv {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #3F51B5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.skillDiv i {
+    font-size: 70px;
+}

@@ -1,0 +1,143 @@
+ 
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    /* margin-top: 50px; */
+    /* background-color: aqua; */
+  }
+  
+  .text {
+    width: 980px;
+    font-size: 50px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 900;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: #1d1d1f;
+  }
+
+  .highlight {
+    color: #3F51B5;
+  }
+  
+  .mask {
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .mask span {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    margin: 5px 0 5px 0;
+    /* padding-top: 30px; */
+    
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+  }
+  
+  .mask span[data-show] {
+    transform: translateY(-100%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span[data-up] {
+    transform: translateY(-200%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span:nth-child(1) {
+    background-image: linear-gradient(45deg, #0ecffe 50%, #07a6f1);
+  }
+  
+  .mask span:nth-child(2) {
+    background-image: linear-gradient(45deg, #18e198 50%, #0ec15d);
+  }
+  
+  .mask span:nth-child(3) {
+    background-image: linear-gradient(45deg, #8a7cfb 50%, #633e9c);
+  }
+  
+  .mask span:nth-child(4) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
+
+.github {
+    display: flex;
+    margin-right: 20px;
+}
+
+.github h3 {
+  margin-right: 15px;
+}
+
+.github div {
+    margin-right: 15px;
+    margin-top: 13px;
+}
+
+.github div a img {
+    width: 40px;
+    height: 40px;
+}
+
+.email {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.emailDiv, .downloadDiv {
+  width: 170px;
+  height: 35px;
+  border: 1px solid #3F51B5;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.emailDiv {
+  background-color: #3F51B5;
+}
+
+.emailDiv img{
+  margin-left: 35px;
+}
+
+.emailDiv img, .downloadDiv img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.emailDiv div, .downloadDiv div {
+  font-weight: 900;
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+  @media screen and (max-width: 720px) {
+    .main {
+      display: block;
+    }
+
+    .floaterDiv {
+      display: none;
+    }
+
+    .myProfile img {
+      width: 50px;
+      height: 50px;
+      display: none;
+    }
+  }

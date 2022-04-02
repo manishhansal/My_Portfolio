@@ -1,0 +1,33 @@
+.contact {
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 162, 240);
+    border: 1px solid #cecece;
+    margin-top: 10px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contact p {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.github1 {
+    display: flex;
+    margin-left: 44%;
+}
+
+.github1 div {
+    margin-right: 15px;
+}
+
+.github1 div a img {
+    width: 40px;
+    height: 40px;
+}
