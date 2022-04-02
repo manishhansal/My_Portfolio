@@ -29,12 +29,12 @@ const BelowNavbar = () => {
             </div>
 
             <div className='email'>
-              <div className='emailDiv'><img src='Email.png'></img><div>Email me</div></div>
-              <div className='downloadDiv'><img src='download_icon.png'></img><div>Download Resume</div></div>
+              <div className='emailDiv'><img src='Email.png' alt='email_logo'></img><div>Email me</div></div>
+              <div className='downloadDiv'><img src='download_icon.png' alt='download_logo'></img><div>Download Resume</div></div>
             </div>
         </div>
         <div className='myProfile'>
-            <img src="Manish_Kumar_Profile.png" alt="" />
+            <img src="Manish_Kumar_Profile.png" alt="my_profile" />
         </div>
     </div>
   )

@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="navbar">
             
             <div className="myLogoDiv">
-                <img src="Manish Kumar1_white.gif" alt="" />
+                <img src="Manish Kumar1_white.gif" alt="my_logo" />
             </div>
 
             <div className="menu">
