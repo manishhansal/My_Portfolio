@@ -1,11 +1,12 @@
 import React from 'react';
-import "./Footer.css"
+import "./Footer.css";
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Footer = () => {
   return (
     <div className='footer'>
       <div className='myLogo'>
-        <a><img src="Manish Kumar1.gif" alt="my_logo" /></a>
+        <a href='#'><img src="Manish Kumar1.gif" alt="my_logo" /></a>
       </div>
       <div className='rights'>
           <h2>© 2022. All Rights Reserved</h2>
