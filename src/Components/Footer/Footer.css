@@ -1,12 +1,14 @@
 .footer {
     display: flex;
-    background-color: #0D2821;
+    background-color: #323f60;
     justify-content: space-between;
     
 }
 
 .myLogo {
     margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .myLogo a img {
@@ -14,9 +16,13 @@
     height: 100px;
 }
 
+.rights {
+    padding-top: 40px;
+}
 
 .rights h2 {
     color: #cecece;
+    font-size: 15px;
 }
 
 .rights h2:hover {
@@ -30,11 +36,19 @@
 
 .github div {
     margin-right: 15px;
+    padding-top: 25px;
 }
 
 .github div a img {
     width: 40px;
     height: 40px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.github div a img:hover {
+    width: 60px;
+    height: 60px;
+    transform: rotate(360deg);
 }
 
 @media screen and (max-width: 720px) {

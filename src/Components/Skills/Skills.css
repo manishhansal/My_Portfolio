@@ -22,3 +22,7 @@
 .skillDiv i {
     font-size: 70px;
 }
+
+@media screen and (max-width: 720px) {
+    
+}

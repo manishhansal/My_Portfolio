@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import $ from 'jquery';
+import {$} from 'jquery';
 
 const Navbar = () => {
 

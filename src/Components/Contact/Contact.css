@@ -30,4 +30,11 @@
 .github1 div a img {
     width: 40px;
     height: 40px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.github1 div a img:hover {
+    width: 60px;
+    height: 60px;
+    transform: rotate(360deg);
 }
