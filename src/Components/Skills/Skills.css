@@ -5,6 +5,7 @@
 .skills {
     display: flex;
     margin-top: 10px;
+    flex-flow: row wrap;
     /* justify-content: space-around; */
 }
 
@@ -24,5 +25,5 @@
 }
 
 @media screen and (max-width: 720px) {
-    
+
 }
