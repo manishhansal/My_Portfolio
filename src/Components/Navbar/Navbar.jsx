@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import {$} from 'jquery';
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Navbar = () => {
 
