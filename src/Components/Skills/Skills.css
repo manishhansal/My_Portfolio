@@ -2,11 +2,16 @@
     text-align: center;
 }
 
+.mainDiv h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
 .skills {
     display: flex;
     margin-top: 10px;
     flex-flow: row wrap;
-    /* justify-content: space-around; */
+    justify-content: center;
 }
 
 .skillDiv {
@@ -25,5 +30,7 @@
 }
 
 @media screen and (max-width: 720px) {
-
+    .skillDiv {
+        margin-bottom: 10px;
+    }
 }

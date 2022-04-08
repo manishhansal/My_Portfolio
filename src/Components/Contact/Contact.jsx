@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='contact'>
       <h1>Contact</h1>
       <p>Let bring new change together. Contact me on any of the platform</p>
-      <div className='github1'>
+      <div className='github2'>
           <div>
             <a href='https://github.com/manishhansal'><img src="github.png" alt='Github_icon'></img></a>
           </div>

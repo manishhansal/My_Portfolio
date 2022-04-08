@@ -1,0 +1,73 @@
+.carousel {
+    background-color: white;
+    height: 400px;
+}
+
+.carousel h3 {
+    font-weight: 900;
+}
+
+
+.carousel img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.mainDiv h1 {
+    text-align: center;
+}
+
+.view {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.view a {
+    text-decoration: none;
+    color: black;
+}
+
+.view a:hover {
+    color: blueviolet;
+}
+
+.view a img {
+    width: 30px;
+    height: 30px;
+}
+
+.pDiv {
+    display: flex;
+    width: 200px;
+    height: 40px;
+}
+
+.view a .pDiv div {
+    width: 200px;
+    margin-top: -6px;
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 720px){
+    .mainDiv {
+        width: auto;
+    }
+
+    .carousel img {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .view {
+        display: inline-block;
+        margin-top: -10px;
+    }
+
+    .view a .pDiv div {
+        margin-top: -14px;
+        margin-right: 0px;
+    }
+}
