@@ -2,7 +2,19 @@
     display: flex;
     justify-content: space-between;
     /* background-color: #0D2821; */
+    animation: 2s ease-out 0s 1 slideInFromLeft;
 }
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
 
 .myLogoDiv {
     cursor: pointer;
@@ -11,6 +23,7 @@
 .myLogoDiv img {
     width: 100px;
     height: 100px;
+    transition: 1s;
 }
 
 .menu {

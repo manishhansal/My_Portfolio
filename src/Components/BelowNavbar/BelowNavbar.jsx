@@ -18,19 +18,24 @@ const BelowNavbar = () => {
             <div className='github'>
                 <h3>Connect me</h3>
                 <div>
-                  <a href='https://github.com/manishhansal'><img src="github.png" alt='Github_icon'></img></a>
+                  <a href='https://github.com/manishhansal' target='_blank' rel="noreferrer"><img src="github.png" alt='Github_icon'></img></a>
                 </div>
                 <div>
-                  <a href='https://www.linkedin.com/in/manish-kumar-939467210/'><img src="linkedin.png" alt='Linkedin_icon'></img></a>
+                  <a href='https://www.linkedin.com/in/manish-kumar-939467210/' target='_blank' rel="noreferrer"><img src="linkedin.png" alt='Linkedin_icon'></img></a>
                 </div>
                 <div>
-                  <a href='https://twitter.com/ManishK62653031'><img src="twitter.png" alt='Twitter_icon'></img></a>
+                  <a href='https://twitter.com/ManishK62653031' target='_blank' rel="noreferrer"><img src="twitter.png" alt='Twitter_icon'></img></a>
                 </div>
             </div>
 
             <div className='email'>
-              <div className='emailDiv'><img src='Email.png' alt='email_logo'></img><div>Email me</div></div>
-              <div className='downloadDiv'><img src='download_icon.png' alt='download_logo'></img><div>Download Resume</div></div>
+              <a href="mailto:manishhansalmeh@gmail.com" target='_blank' rel="noreferrer">
+                <div className='emailDiv'><img src='Email.png' alt='email_logo'></img><div>Email me</div></div>
+              </a>
+              <a href='https://drive.google.com/file/d/1Ie5fqPHtxAJLyIi_gv96RNTrPOoPYGiK/view?usp=sharing' target='_blank' rel="noreferrer">
+                <div className='downloadDiv'><img src='download_icon.png' alt='download_logo'></img><div>Download Resume</div></div>
+              </a>
+              
             </div>
         </div>
         <div className='myProfile'>

@@ -1,15 +1,29 @@
-.about {
+#about {
     text-align: center;
     background-color: azure;
-    border: 1px solid #cecece;
+    /* border: 1px solid #cecece; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
 }
 
-.about h1 {
+#about h1 {
     font-size: 40px;
     font-weight: 900;
 }
 
-.about p {
+#about div {
+    width: 50%;
+}
+
+#about p {
     font-size: 25px;
     font-weight: 800;
+}
+
+@media screen and (max-width: 720px) {
+    #about div {
+        width: 100%;
+    }
 }

@@ -1,4 +1,4 @@
-.contact {
+#contact {
     /* display: flex; */
     text-align: center;
     justify-content: center;
@@ -8,12 +8,12 @@
     margin-top: 10px;
 }
 
-.contact h1 {
+#contact h1 {
     font-size: 40px;
     font-weight: 900;
 }
 
-.contact p {
+#contact p {
     font-size: 25px;
     font-weight: 800;
 }

@@ -12,13 +12,13 @@ const Footer = () => {
           <h2>© 2022. All Rights Reserved</h2>
       </div>
       <div className='github'>
-          <div>
+          <div className='githubChild'>
             <a href='https://github.com/manishhansal'><img src="github.png" alt='Github_icon'></img></a>
           </div>
-          <div>
+          <div className='githubChild'>
             <a href='https://www.linkedin.com/in/manish-kumar-939467210/'><img src="linkedin.png" alt='Linkedin_icon'></img></a>
           </div>
-          <div>
+          <div className='githubChild'>
             <a href='https://twitter.com/ManishK62653031'><img src="twitter.png" alt='Twitter_icon'></img></a>
           </div>
       </div>

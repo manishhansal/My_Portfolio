@@ -1,8 +1,10 @@
-.mainDiv {
+#mainDiv {
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.mainDiv h1 {
+#mainDiv>h1 {
     font-size: 40px;
     font-weight: 900;
 }

@@ -3,8 +3,9 @@
     height: 400px;
 }
 
-.carousel h3 {
+.carousel>h3 {
     font-weight: 900;
+    text-align: center;
 }
 
 
@@ -15,8 +16,15 @@
     margin-top: 5%;
 }
 
-.mainDiv h1 {
+#projects {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#projects>h1 {
     text-align: center;
+    font-weight: 900;
+    font-size: 40px;
 }
 
 .view {
@@ -51,7 +59,7 @@
 }
 
 @media screen and (max-width: 720px){
-    .mainDiv {
+    #projects {
         width: auto;
     }
 
@@ -64,6 +72,10 @@
     .view {
         display: inline-block;
         margin-top: -10px;
+    }
+
+    .view a .pDiv {
+        margin-left: 50%;
     }
 
     .view a .pDiv div {

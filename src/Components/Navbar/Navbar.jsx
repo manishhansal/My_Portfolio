@@ -21,65 +21,65 @@ const Navbar = () => {
 
                 <div className="childDiv">
                     <div>
-                        <a href="#">
+                        <a href="#about">
                             <img src="about.png" alt="about_logo"/>
                         </a>
                     </div>
 
                     <div className="textDiv">
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </div>
                     
                 </div>
 
                 <div className="childDiv">
                     <div>
-                        <a href="#">
+                        <a href="#mainDiv">
                             <img src="Skills.png" alt="skills_logo"/>
                         </a>
                     </div>
 
                     <div className="textDiv">
-                        <a href="#">Skills</a>
+                        <a href="#mainDiv">Skills</a>
                     </div>
                     
                 </div>
 
                 <div className="childDiv">
                     <div>
-                        <a href="#">
+                        <a href="#projects">
                             <img src="Projects.png" alt="projects_logo"/>
                         </a>
                     </div>
 
                     <div className="textDiv">
-                        <a href="#">Projects</a>
+                        <a href="#projects">Projects</a>
                     </div>
                     
                 </div>
 
                 <div className="childDiv">
                     <div>
-                        <a href="#">
+                        <a href="#contact">
                             <img src="Contact.png" alt="contact_logo"/>
                         </a>
                     </div>
 
                     <div className="textDiv">
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </div>
                     
                 </div>
 
                 <div className="childDiv">
                     <div>
-                        <a href="#">
+                        <a href="https://drive.google.com/file/d/1Ie5fqPHtxAJLyIi_gv96RNTrPOoPYGiK/view?usp=sharing" target="_blank" rel="noreferrer">
                             <img src="Resume.png" alt="resume_logo"/>
                         </a>
                     </div>
 
                     <div className="textDiv">
-                        <a href="#">Resume</a>
+                        <a href="https://drive.google.com/file/d/1Ie5fqPHtxAJLyIi_gv96RNTrPOoPYGiK/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                     </div>
                     
                 </div>

@@ -5,16 +5,16 @@ import { Footer } from './Components/Footer/Footer';
 import { About } from './Components/About/About';
 import { Contact } from './Components/Contact/Contact';
 import { Skills } from './Components/Skills/Skills';
-import SimpleSlider from './Components/Projects/Project';
+import Projects from './Components/Projects/Project';
+
 function App() {
   return (
     <div>
       <Navbar />
       <BelowNavbar />
       <About />
+      <Projects/>
       <Skills />
-      {/* <Project /> */}
-      <SimpleSlider/>
       <Contact />
       <Footer />
     </div>
