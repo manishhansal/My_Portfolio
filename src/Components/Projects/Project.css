@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 720px){
     #projects {
-        width: auto;
+        width: 100%;
     }
 
     .carousel img {
@@ -72,6 +72,7 @@
     .view {
         display: inline-block;
         margin-top: -10px;
+        align-items: center;
     }
 
     .view a .pDiv {

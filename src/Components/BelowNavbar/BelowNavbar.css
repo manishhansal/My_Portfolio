@@ -80,21 +80,21 @@
     background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
   }
 
-.github {
+.github5 {
     display: flex;
     margin-right: 20px;
 }
 
-.github h3 {
+.github5 h3 {
   margin-right: 15px;
 }
 
-.github div {
+.github5 div {
     margin-right: 15px;
     margin-top: 9px;
 }
 
-.github div a img {
+.github5 div a img {
     width: 40px;
     height: 40px;
 }
@@ -141,18 +141,85 @@
   margin-top: 7px;
 }
 
+.forMobile {
+  display: none;
+}
+
   @media screen and (max-width: 720px) {
     .main {
       display: block;
     }
 
-    .floaterDiv {
+    .github5 {
       display: none;
     }
 
+    .forMobile {
+      display: block;
+      margin-left: 20%;
+    }
+
+    .myProfile {
+      margin-top: 10%;
+      margin-left: 25%;
+    }
+
     .myProfile img {
-      width: 50px;
-      height: 50px;
+      width: 200px;
+      height: 200px;
+      
+      /* display: none; */
+    }
+
+    .text {
       display: none;
     }
+
+    .email {
+      display: block;
+      margin-bottom: 5%;
+      margin-left: 30%;
+    }
+
+    .emailDiv, .downloadDiv {
+      margin-bottom: 5%;
+    }
   }
+
+
+  /* @media screen and (min-width: 768px) {
+    .main {
+      display: block;
+    }
+
+    .myProfile {
+      margin-left: 25%;
+      margin-top: 10%;
+    }
+
+    .myProfile img {
+      width: 400px;
+      height: 400px;
+    }
+
+    .text {
+      display: none;
+    }
+
+    .forMobile {
+      display: block;
+      margin-left: 35%;
+    }
+
+    .forMobile>h2 {
+      font-size: 30px;
+    }
+
+    .github5 {
+      margin-left: 33%;
+    }
+
+    .email {
+      margin-left: 29%;
+    }
+  } */

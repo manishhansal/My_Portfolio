@@ -15,7 +15,11 @@ const BelowNavbar = () => {
                 </div>
             </h2>
 
-            <div className='github'>
+            <div className='forMobile'>
+              <h2>Hi, I am <span className='highlight'>Manish Kumar</span>, <br/>a full-stack developer. </h2>
+            </div>
+
+            <div className='github5'>
                 <h3>Connect me</h3>
                 <div>
                   <a href='https://github.com/manishhansal' target='_blank' rel="noreferrer"><img src="github.png" alt='Github_icon'></img></a>

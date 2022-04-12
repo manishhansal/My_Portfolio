@@ -20,6 +20,12 @@ const Contact = () => {
             <a href='https://wa.me/8581935284'><img src="whatsapp.png" alt='whatsapp_icon'></img></a>
           </div>
       </div>
+
+      <hr/>
+
+      <div>
+        <h4>Designed and build by Manish Kumar, © 2022. All Rights Reserved</h4>
+      </div>
     </div>
   )
 }
