@@ -11,11 +11,13 @@
 #contact h1 {
     font-size: 40px;
     font-weight: 900;
+    font-family: 'Fredoka', sans-serif;
 }
 
 #contact p {
     font-size: 25px;
     font-weight: 800;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .github2 {

@@ -21,7 +21,6 @@ const BelowNavbar = () => {
 
             <div className='githubMainDiv'>
                 <div className='github5'>
-                    <h3>Connect me</h3>
                     <div>
                       <a href='https://github.com/manishhansal' target='_blank' rel="noreferrer"><img src="github.png" alt='Github_icon'></img></a>
                     </div>

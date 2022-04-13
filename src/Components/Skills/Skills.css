@@ -1,12 +1,13 @@
 #mainDiv {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 #mainDiv>h1 {
     font-size: 40px;
     font-weight: 900;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .skills {
@@ -29,6 +30,7 @@
 
 .skillDiv i {
     font-size: 70px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 @media screen and (max-width: 720px) {

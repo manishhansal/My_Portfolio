@@ -1,12 +1,17 @@
 .carousel {
     background-color: white;
     height: 400px;
-    /* border: 1px solid black; */
 }
 
 .carousel>h3 {
     font-weight: 900;
     text-align: center;
+}
+
+.carousel .contentDiv {
+    width: 350px;
+    height: 150px;
+    margin-left: 4%;
 }
 
 
@@ -84,6 +89,11 @@
         margin-top: -14px;
         margin-right: 0px;
     }
+
+    .carousel .contentDiv {
+        width: 300px;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -111,13 +121,6 @@
         margin-right: 0px;
         width: 100%;
     }
-
-    /* .carouselDiv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-
 
     .carousel img {
         margin: auto;
