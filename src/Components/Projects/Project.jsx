@@ -77,7 +77,7 @@ export default class Projects extends Component {
                   <div><h3>View Code</h3></div>
                 </div>
               </a>
-              <a href="vikalpbookmyshow.netlify.app" target="_blank" rel="noreferrer">
+              <a href="https://vikalpbookmyshow.netlify.app" target="_blank" rel="noreferrer">
                 <div className="pDiv">
                   <img src="output-onlinegiftools.gif" alt="live_gif"/>
                   <div><h3>Live Preview</h3></div>
@@ -156,7 +156,7 @@ export default class Projects extends Component {
                   <div><h3>View Code</h3></div>
                 </div>
               </a>
-              <a href="vikalpbookmyshow.netlify.app" target="_blank">
+              <a href="https://vikalpbookmyshow.netlify.app" target="_blank" rel="noreferrer">
                 <div className="pDiv">
                   <img src="output-onlinegiftools.gif" alt="live_gif"/>
                   <div><h3>Live Preview</h3></div>
