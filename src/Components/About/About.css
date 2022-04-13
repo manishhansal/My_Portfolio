@@ -24,6 +24,12 @@
 
 @media screen and (max-width: 720px) {
     #about div {
-        width: 100%;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    #about div {
+        width: 90%;
     }
 }

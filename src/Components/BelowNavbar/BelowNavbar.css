@@ -4,10 +4,6 @@
     justify-content: center;
     align-items: center;
     min-height: 500px;
-    width: 70%;
-    margin-left: 15%;
-    /* margin-top: 50px; */
-    /* background-color: aqua; */
     animation: 2s ease-out 0s 1 slideInFromRight;
   }
 
@@ -21,7 +17,7 @@
 }
   
   .text {
-    width: 980px;
+    width: 780px;
     font-size: 50px;
     font-family: 'Fredoka', sans-serif;
     font-weight: 900;
@@ -47,7 +43,6 @@
     position: absolute;
     top: 100px;
     margin: 5px 0 5px 0;
-    /* padding-top: 30px; */
     
     background-size: 100% 100%;
     -webkit-background-clip: text;
@@ -150,6 +145,8 @@
   @media screen and (max-width: 720px) {
     .main {
       display: block;
+      justify-content: center;
+      align-items: center;
     }
 
     .github5 {
@@ -157,30 +154,36 @@
     }
 
     .forMobile {
-      display: block;
-      margin-left: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .myProfile {
       margin-top: 10%;
-      margin-left: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .myProfile img {
       width: 200px;
       height: 200px;
-      
-      /* display: none; */
     }
 
     .text {
       display: none;
     }
 
+    .emailMainDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+
     .email {
       display: block;
-      margin-bottom: 5%;
-      margin-left: 30%;
     }
 
     .emailDiv, .downloadDiv {
@@ -189,14 +192,18 @@
   }
 
 
-  /* @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
     .main {
       display: block;
+      justify-content: center;
+      align-items: center;
     }
 
     .myProfile {
-      margin-left: 25%;
       margin-top: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .myProfile img {
@@ -209,19 +216,24 @@
     }
 
     .forMobile {
-      display: block;
-      margin-left: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .forMobile>h2 {
-      font-size: 30px;
+      font-size: 50px;
     }
 
-    .github5 {
-      margin-left: 33%;
+    .githubMainDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    .email {
-      margin-left: 29%;
+    .emailMainDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-  } */
+  }

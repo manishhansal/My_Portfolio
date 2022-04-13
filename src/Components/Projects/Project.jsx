@@ -145,25 +145,27 @@ export default class Projects extends Component {
             </div>
           </div>
 
-          <div className="carousel">
-            <img src="Bookmyshow2.png" alt="bookmyshow_png"/>
-            <h3>Bookmyshow Clone</h3>
 
-            <div className="view">
-              <a href="https://github.com/vikalpvarshney1/team8" target="_blank" rel="noreferrer">
-                <div className="pDiv">
-                  <img src="output-onlinegiftools (1).gif" alt="view_gif"/>
-                  <div><h3>View Code</h3></div>
-                </div>
-              </a>
-              <a href="https://vikalpbookmyshow.netlify.app" target="_blank" rel="noreferrer">
-                <div className="pDiv">
-                  <img src="output-onlinegiftools.gif" alt="live_gif"/>
-                  <div><h3>Live Preview</h3></div>
-                </div>
-              </a>
+          <div className="carousel">
+              <img src="Bookmyshow2.png" alt="bookmyshow_png"/>
+              <h3>Bookmyshow Clone</h3>
+
+              <div className="view">
+                <a href="https://github.com/vikalpvarshney1/team8" target="_blank" rel="noreferrer">
+                  <div className="pDiv">
+                    <img src="output-onlinegiftools (1).gif" alt="view_gif"/>
+                    <div><h3>View Code</h3></div>
+                  </div>
+                </a>
+                <a href="https://vikalpbookmyshow.netlify.app" target="_blank" rel="noreferrer">
+                  <div className="pDiv">
+                    <img src="output-onlinegiftools.gif" alt="live_gif"/>
+                    <div><h3>Live Preview</h3></div>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
+          
 
           
         </Slider>
