@@ -79,7 +79,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="textDiv">
-                        <a href="https://drive.google.com/file/d/1Ie5fqPHtxAJLyIi_gv96RNTrPOoPYGiK/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+                        <a href="https://drive.google.com/file/d/1G6IRUF6fse7vGbzFxs43B31kzRvG_8zZ/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                     </div>
                     
                 </div>
