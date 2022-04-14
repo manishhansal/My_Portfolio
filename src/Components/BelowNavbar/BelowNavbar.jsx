@@ -46,7 +46,7 @@ const BelowNavbar = () => {
 
         </div>
         <div className='myProfile'>
-            <img src="Manish_Kumar_Profile.png" alt="my_profile" />
+            <img src="MyProfile_pic.png" alt="my_profile" />
         </div>
     </div>
   )
