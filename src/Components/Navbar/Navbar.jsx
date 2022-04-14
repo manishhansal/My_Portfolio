@@ -73,7 +73,7 @@ const Navbar = () => {
 
                 <div className="childDiv">
                     <div>
-                        <a href="https://drive.google.com/file/d/1Ie5fqPHtxAJLyIi_gv96RNTrPOoPYGiK/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1G6IRUF6fse7vGbzFxs43B31kzRvG_8zZ/view?usp=sharing" target="_blank" rel="noreferrer">
                             <img src="Resume.png" alt="resume_logo"/>
                         </a>
                     </div>
