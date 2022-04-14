@@ -20,9 +20,11 @@ https://manishportfoli.netlify.app
 
 First step clone the repository using the git command - git clone https://github.com/manishhansal/My_Portfolio.git
 
-Go to index.html
+Go to my_portfolio Folder git command - cd my_portfolio
 
-And open live server.
+Now, you can run:
+
+### `npm start`
 
 ### 1. Landing Page
 If new user enters in the system then the user will land here.
