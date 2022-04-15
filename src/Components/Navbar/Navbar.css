@@ -66,6 +66,17 @@
     font-weight: 600;
     color: black;
     font-family: 'Fredoka', sans-serif;
+
+    padding-bottom: 2px;
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+}
+
+.textDiv a:hover {
+    background-size: 100% 3px;
 }
 
 @media screen and (max-width: 720px) {

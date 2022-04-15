@@ -27,7 +27,7 @@
   }
 
   .highlight {
-    color: #3F51B5;
+    color: #607D8B;
   }
   
   .mask {
@@ -117,7 +117,7 @@
 .emailDiv, .downloadDiv {
   width: 170px;
   height: 35px;
-  border: 1px solid #3F51B5;
+  border: 1px solid #607D8B;
   border-radius: 10px;
   margin-right: 10px;
   cursor: pointer;
@@ -125,7 +125,8 @@
 }
 
 .emailDiv {
-  background-color: #3F51B5;
+  background-color: #607D8B;
+
 }
 
 .emailDiv img{

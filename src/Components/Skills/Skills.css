@@ -22,10 +22,18 @@
     height: 130px;
     border-radius: 10px;
     text-align: center;
-    border: 1px solid #3F51B5;
+    border: 1px solid #cecece;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.skillDiv:hover {
+    width: 140px;
+    height: 140px;
+    transform: rotate(10deg);
 }
 
 .skillDiv i {
