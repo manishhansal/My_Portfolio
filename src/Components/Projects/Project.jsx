@@ -209,6 +209,34 @@ export default class Projects extends Component {
                 </a>
               </div>
             </div>
+
+
+            <div className="carousel">
+              <img src="my_chat_app.png" alt="my_chat_app_png"/>
+              <h3>Chat App</h3>
+              <div className="contentDiv">
+                <p>This is my solo project, where a user can create account and start chatting with his/her friend or family, built-in 5 days. Basically, this is my MERN-stack project or full-stack project.</p>
+              </div>
+
+              <div className="contentDiv1">
+                <p><strong>Tech Stack: </strong>React.js | Redux.js | React Bootstrap | CDNjs | Node.js | Express.js | MongoDB | Socket.io</p>
+              </div>
+
+              <div className="view">
+                <a href="https://github.com/manishhansal/My_chat_app" target="_blank" rel="noreferrer">
+                  <div className="pDiv">
+                    <img src="output-onlinegiftools (1).gif" alt="view_gif"/>
+                    <div><h3>View Code</h3></div>
+                  </div>
+                </a>
+                <a href="https://my-mern-chatapp.netlify.app" target="_blank" rel="noreferrer">
+                  <div className="pDiv">
+                    <img src="output-onlinegiftools.gif" alt="live_gif"/>
+                    <div><h3>Live Preview</h3></div>
+                  </div>
+                </a>
+              </div>
+            </div>
           
 
           
