@@ -38,7 +38,7 @@ const BelowNavbar = () => {
                 <a href="mailto:manishhansalmeh@gmail.com" target='_blank' rel="noreferrer">
                   <div className='emailDiv'><img src='Email.png' alt='email_logo'></img><div>Email me</div></div>
                 </a>
-                <a href="https://drive.google.com/file/d/13xI-Ido1r8Q67t1rhLoDrfGGKEY89NaN/view?usp=sharing" target='_blank' rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1t7DrAtCDUFzA-4vWzKTk2VPd9v0sTyrG/view?usp=sharing" target='_blank' rel="noreferrer">
                   <div className='downloadDiv'><img src='download_icon.png' alt='download_logo'></img><div>Download Resume</div></div>
                 </a>
               </div>

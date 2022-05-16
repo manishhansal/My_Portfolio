@@ -73,13 +73,13 @@ const Navbar = () => {
 
                 <div className="childDiv">
                     <div>
-                        <a href="https://drive.google.com/file/d/13xI-Ido1r8Q67t1rhLoDrfGGKEY89NaN/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1t7DrAtCDUFzA-4vWzKTk2VPd9v0sTyrG/view?usp=sharing" target="_blank" rel="noreferrer">
                             <img src="Resume.png" alt="resume_logo"/>
                         </a>
                     </div>
 
                     <div className="textDiv">
-                        <a href="https://drive.google.com/file/d/13xI-Ido1r8Q67t1rhLoDrfGGKEY89NaN/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+                        <a href="https://drive.google.com/file/d/1t7DrAtCDUFzA-4vWzKTk2VPd9v0sTyrG/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                     </div>
                     
                 </div>
